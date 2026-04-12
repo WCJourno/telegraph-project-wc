@@ -21,7 +21,7 @@
   <div class="container">
     <h1 class="text-center">Street Vendors</h1>
     <p> We'll have a video interview with a longtime street vendor here.</p>
-    <img src="src/lib/assets/jaffar-01-sm.png" alt="Image of Jaffar" class="img-fluid"/>
+    <img src="/images/jaffar-01-sm-static.png" alt="Street Vendor Jaffar" class="img-fluid"/>
   </div>
 
   <div class="container">
@@ -33,13 +33,13 @@
   <div class="container">
     <h1 class="text-center">Young's Backpacking</h1>
     <p> This store has been on Telegraph Avenue for 40 years.</p>
-    <img src="src/lib/assets/young-02-sm.png" alt="Image of Youngs owner" class="img-fluid"/>
+    <img src="/images/young-02-sm-static.png" alt="Young himself" class="img-fluid"/>
   </div>
 
   <div class="container">
     <h1 class="text-center">2411 Telegraph Avenue</h1>
     <p> Despite changes on Telegraph Avenue, many buildings have remained relatively unchanged despite housing many businesses over the years.</p>
-    <img src="src/lib/assets/2411telegraph.png" alt="Image of 2411 Telegraph Avenue" class="img-fluid"/>
+    <img src="/images/2411telegraphstatic.png" alt="2411 Telegraph Avenue storefront" class="img-fluid"/>
   </div>
 
 <!-- Code imported from Google Doc -->
