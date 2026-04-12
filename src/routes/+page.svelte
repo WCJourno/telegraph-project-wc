@@ -10,7 +10,6 @@
 
 <main>
 
-
   <div class="container">
     <h1 class="text-center">Welcome to Telegraph Avenue</h1>
     <h3 class="text-center">This is a tour of a historic neighborhood.</h3>
@@ -22,7 +21,7 @@
   <div class="container">
     <h1 class="text-center">Street Vendors</h1>
     <p> We'll have a video interview with a longtime street vendor here.</p>
-    <img src="src/lib/assets/jaffar-01.png" alt="Image of Jaffar" class="img-fluid"/>
+    <img src="src/lib/assets/jaffar-01-sm.png" alt="Image of Jaffar" class="img-fluid"/>
   </div>
 
   <div class="container">
@@ -34,14 +33,13 @@
   <div class="container">
     <h1 class="text-center">Young's Backpacking</h1>
     <p> This store has been on Telegraph Avenue for 40 years.</p>
-    <img src="src/lib/assets/young-02.png" alt="Image of Youngs owner" class="img-fluid"/>
+    <img src="src/lib/assets/young-02-sm.png" alt="Image of Youngs owner" class="img-fluid"/>
   </div>
 
-    <div class="container">
+  <div class="container">
     <h1 class="text-center">2411 Telegraph Avenue</h1>
     <p> Despite changes on Telegraph Avenue, many buildings have remained relatively unchanged despite housing many businesses over the years.</p>
-    <!-- svelte-ignore a11y_img_redundant_alt -->
-    <img src="src/lib/assets/2411telegraph.jpg" alt="Image of 2411 Telegraph Avenue" class="img-fluid"/>
+    <img src="src/lib/assets/2411telegraph.png" alt="Image of 2411 Telegraph Avenue" class="img-fluid"/>
   </div>
 
 <!-- Code imported from Google Doc -->
