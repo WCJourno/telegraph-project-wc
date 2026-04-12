@@ -42,6 +42,22 @@ html, body {
   -moz-osx-font-smoothing: auto;
 }
 
+main {
+  background-color:rgba(255, 228, 196, 0.362);
+  min-height: 100%;
+}
+
+div {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.telegraph-map {
+  background-image: url('src/lib/assets/telegraph-map-draft.png'), linear-gradient(rgba(255, 0, 0, 0.5), rgba(100, 255, 0, 0.5));
+  background-size: cover;
+  height:1200px;
+  background-position: center;
+}
 
 /* Break out of the centered container to full viewport width */
 .full-bleed {
