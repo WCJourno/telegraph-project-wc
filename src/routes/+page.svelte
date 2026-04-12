@@ -16,8 +16,11 @@
     <h3 class="text-center">This is a tour of a historic neighborhood.</h3>
   </div>
 
-  <div class="container telegraph-map">
-  </div>
+<div
+  class="container telegraph-map"
+  style={`background-image: url('${base}/images/telegraph-map-clear-static.png'), linear-gradient(rgba(255,0,0,.5), rgba(100,255,0,.5));`}
+>
+</div>
 
   <div class="container">
     <h1 class="text-center">Street Vendors</h1>
