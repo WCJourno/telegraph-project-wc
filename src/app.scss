@@ -43,7 +43,7 @@ html, body {
 }
 
 main {
-  background-color:rgba(255, 228, 196, 0.362);
+  background-color:rgb(255, 217, 165);
   min-height: 100%;
 }
 
@@ -53,9 +53,12 @@ div {
 }
 
 .telegraph-map {
-  background-size: cover;
-  height:1200px;
+  width: 100%;
+  height: 800px;
+  aspect-ratio: 5 / 3;
+  background-size: cover;  
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Break out of the centered container to full viewport width */
