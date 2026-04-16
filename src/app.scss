@@ -43,13 +43,22 @@ html, body {
 }
 
 main {
-  background-color:rgb(255, 217, 165);
+  background-image: url('/images/Full Telegraph Map-0414.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;   
   min-height: 100%;
 }
 
 div {
   margin: 1rem;
   padding: 1rem;
+}
+
+.two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
 }
 
 .telegraph-map {
