@@ -48,7 +48,7 @@
   <h1 class="text-center" style="color: blue; background-color: tan;"> Bookstores </h1>
 <div class="two-column-layout">
     <div>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ZQE6JvlZcT-HLbFwUMsUxFjQmuUqQtE&ehbc=2E312F&noprof=1" width="100%" height="100%"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ZQE6JvlZcT-HLbFwUMsUxFjQmuUqQtE&ehbc=2E312F&noprof=1" title="A map of bookstores in the Telegraph Avenue area in 1986." width="100%" height="100%"></iframe>
     </div>
 
 <!-- Section 3: Bookstores, Column 2 -->
