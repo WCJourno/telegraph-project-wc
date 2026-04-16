@@ -23,7 +23,7 @@
 <!-- Section 1: Street Vendors, Column 1 -->
 <div class="two-column-layout">
     <div>
-        <img src="/images/jaffar-01-sm-static.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
+        <img src="{base}/images/jaffar-01-sm-static.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
     </div>
 
 <!-- Section 1: Street Vendors, Column 2 -->
@@ -66,7 +66,7 @@
 
 <!-- Section 4: Young's, Column 2 -->
     <div>
-        <img src="/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
+        <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
     </div>
 </div>
 
