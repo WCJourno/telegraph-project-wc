@@ -51,7 +51,7 @@
 	<!-- Artboard: Artboard_1 -->
 	<div id="g-longmobiletelegraph-0419-Artboard_1" class="g-artboard" data-aspect-ratio="0.47" data-min-width="0">
 		<div style="padding: 0 0 212.5922% 0;"></div>
-		<img id="g-longmobiletelegraph-0419-Artboard_1-img" class="g-longmobiletelegraph-0419-Artboard_1-img g-aiImg" alt="" loading="lazy" src="/static/ai2html/longmobiletelegraph-0419-Artboard_1.jpg"/>
+		<img id="g-longmobiletelegraph-0419-Artboard_1-img" class="g-longmobiletelegraph-0419-Artboard_1-img g-aiImg" alt="" loading="lazy" src="{base}/static/ai2html/longmobiletelegraph-0419-Artboard_1.jpg"/>
 	</div>
 </div>
 
