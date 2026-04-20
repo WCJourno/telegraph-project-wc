@@ -46,13 +46,22 @@
 </style>
 
 <main>
- 
+<!-- deactivated 
 <div id="g-longmobiletelegraph-0419-box" class="ai2html">
-	<!-- Artboard: Artboard_1 -->
 	<div id="g-longmobiletelegraph-0419-Artboard_1" class="g-artboard" data-aspect-ratio="0.47" data-min-width="0">
 		<div style="padding: 0 0 212.5922% 0;"></div>
 		<img id="g-longmobiletelegraph-0419-Artboard_1-img" class="g-longmobiletelegraph-0419-Artboard_1-img g-aiImg" alt="" loading="lazy" src="{base}/static/ai2html/longmobiletelegraph-0419-Artboard_1.jpg"/>
 	</div>
+</div>
+deactivated --> 
+
+<!-- DO NOT EDIT (except to modify classes). This will become code imported from Google Doc. -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-sm-10 col-lg-8 col-xxl-6">
+      <DocRenderer {blocks} />
+    </div>
+  </div>
 </div>
 
 </main>
