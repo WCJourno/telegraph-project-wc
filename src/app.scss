@@ -5,8 +5,6 @@ Bootstrap configuration overrides must be BEFORE importing Bootstrap.
 List of options here: https://getbootstrap.com/docs/5.3/customize/options/
 ***************/
 
-
-
 $font-family-sans-serif: 'Lato', system-ui, -apple-system, 'Segoe UI', sans-serif;
 $font-size-base: 1.1rem;
 $font-weight-base: 400;
@@ -28,11 +26,11 @@ $small-font-size: .875em;
 @import "bootstrap/scss/bootstrap"; /* Import all of Bootstrap’s Sass */
 
 
-
-
 /***********
 Any project-wide styles should go AFTER the Bootsrap import 
 ************/
+
+
 
 html, body {
   height: 100%;
@@ -41,21 +39,98 @@ html, body {
 }
 
 main {
-  background-image: url('/images/Telegraph-Map-April16.png');
-  background-color: #ACF2EB;
+  background-color: #F2CF8D;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;   
+  min-height: 100%;
 }
 
-div:not(.ai2html > *) {
-  margin: 1rem;
-  padding: 1rem;
+div {
+
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/WelcomeTelegraphMural.jpg");
+  background-color: #d638e4;
+  height: 100vh;
+  padding: 20vh 10vh 10vh;
+  background-repeat: no-repeat;
+  h1 {
+    color: white;
+    font-size: 3rem;
+  }
+  h3 {
+    color: white;
+    font-size: 1.5rem;
+  }
+  p {
+    color: white;
+    font-size: 1.2rem;
+  }
+}
+
+.story-background-photo {
+  background-image: url("/images/Telegraph-Road-Desktop-100px.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+@media (max-width: 768px) {
+  .story-background-photo {
+    background-image: url("/images/Telegraph-Road-Mobile-62px.png");
+  }
+
 }
 
 .two-column-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
+  gap: 85px;
 }
+
+@media (max-width: 768px) {
+  .two-column-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.box {
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.centered-text-box {
+  background-color: #457abff1; 
+  height: 70vh;
+  padding: 2rem; 
+  margin: 2rem auto;
+    h1 {
+    color: #D96C75;
+    font-size: 3rem;
+  }
+  h3 {
+    color: white;
+    font-size: 1.5rem;
+  }
+  p {
+    color: white;
+    font-size: 1.2rem;
+  }
+}
+
+/* Removing color classes for the two-column sections 
+.color-1 {
+  background: #F2D0DD;
+}
+
+.color-2 {
+  background: #A9D4D9;
+}
+*/
 
 /* Break out of the centered container to full viewport width */
 .full-bleed {
