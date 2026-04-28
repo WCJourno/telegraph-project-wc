@@ -32,6 +32,17 @@
 		return registry[name];
 	}
 
+	function isMeaningfulHtml(html: string) {
+		const trimmed = String(html || '').trim();
+		if (!trimmed) return false;
+		if (/^<p[^>]*>\s*<\/p>$/i.test(trimmed)) return false;
+		if (/^<p[^>]*>&nbsp;<\/p>$/i.test(trimmed)) return false;
+		if (/^<p[^>]*>\s*$/i.test(trimmed)) return false;
+		if (/^<\/p>\s*$/i.test(trimmed)) return false;
+		return /<img\b|<figure\b|<table\b|<blockquote\b/i.test(trimmed) ||
+			trimmed.replace(/<[^>]+>/g, '').replace(/&nbsp;/gi, '').trim().length > 0;
+	}
+
 	function toCamel(s: string) {
 		return s.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
 	}
@@ -73,7 +84,7 @@
 </script>
 
 {#each blocks as block, i (i)}
-	{#if block.type === 'html'}
+	{#if block.type === 'html' && isMeaningfulHtml(block.html)}
 		{@html block.html}
 	{:else if block.type === 'shortcode'}
 		{#if getComponent(block.name)}

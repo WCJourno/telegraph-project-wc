@@ -118,6 +118,16 @@ function parseShortcodeToken(token) {
  * - { type:'html', html }
  * - { type:'shortcode', name, attrs, bodyHtml? }
  */
+function isEmptyWrapperHtml(html) {
+  const trimmed = String(html || '').trim();
+  if (!trimmed) return true;
+  if (/^<p[^>]*>\s*<\/p>$/i.test(trimmed)) return true;
+  if (/^<p[^>]*>$/i.test(trimmed)) return true;
+  if (/^<\/p>$/i.test(trimmed)) return true;
+  if (/^<p[^>]*>&nbsp;<\/p>$/i.test(trimmed)) return true;
+  return false;
+}
+
 function splitHtmlIntoBlocksWithPairedShortcodes(html) {
   const blocks = [];
   const tokenRe = /\[\[[\s\S]*?\]\]/g;
@@ -133,7 +143,7 @@ function splitHtmlIntoBlocksWithPairedShortcodes(html) {
     // preceding HTML
     if (tokenStart > cursor) {
       const before = html.slice(cursor, tokenStart);
-      if (before.trim()) blocks.push({ type: 'html', html: before });
+      if (before.trim() && !isEmptyWrapperHtml(before)) blocks.push({ type: 'html', html: before });
     }
 
     const parsed = parseShortcodeToken(tokenText);
@@ -180,7 +190,7 @@ function splitHtmlIntoBlocksWithPairedShortcodes(html) {
 
   if (cursor < html.length) {
     const tail = html.slice(cursor);
-    if (tail.trim()) blocks.push({ type: 'html', html: tail });
+    if (tail.trim() && !isEmptyWrapperHtml(tail)) blocks.push({ type: 'html', html: tail });
   }
 
   return blocks;

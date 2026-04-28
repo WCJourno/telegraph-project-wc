@@ -5,21 +5,46 @@
   },
   {
     "type": "shortcode",
-    "name": "NameOfComponent",
+    "name": "Scrolly",
     "attrs": {
-      "src": "...",
-      "anotherAttr": "..."
-    }
-  },
-  {
-    "type": "html",
-    "html": "</p>\n<p>"
-  },
-  {
-    "type": "shortcode",
-    "name": "Ai2html",
-    "attrs": {
-      "slug": "longmobiletelegraph-0419"
+      "steps": [
+        {
+          "img": "/scrolly/grey-gradient.png",
+          "alt": "a grey gradient background",
+          "pos": "center",
+          "text": "The noise of the present often obscures the rich history of the place."
+        },
+        {
+          "img": "/scrolly/Telegraph-map.png",
+          "alt": "A screenshot of a map of Telegraph Avenue",
+          "pos": "start",
+          "text": "Telegraph Avenue has been around for centuries. A north-south artery of the East Bay, it stretches TK miles, all the way to Oakland. At the north end, it once came all the way to Sather Gate&ndash;though it retreated to the corner of Bancroft Way in TK YEAR."
+        },
+        {
+          "img": "/scrolly/Telegraph_Downtown_Oakland.png",
+          "alt": "A historic photo shows horse drawn carriages in Oakland",
+          "pos": "end",
+          "text": "In the early 19th century, horse carriages rambled up and down the avenue, carrying students, professors and everyone else where they needed to go."
+        },
+        {
+          "img": "/scrolly/Moes-historic-photo.png",
+          "alt": "Three men sit on a curb across from Moe's Bookstore",
+          "pos": "start",
+          "text": "In the mid-20th century pictures of Telegraph Avenue were seen around the world, as the street acted as one of the iconic backdrops for a social movement&hellip;"
+        },
+        {
+          "img": "/scrolly/telegraph-car.png",
+          "alt": "A car outfitted with makeshift crowd control devices",
+          "pos": "end",
+          "text": "&hellip; and disastrous clashes between protesters and local, state and federal authorities."
+        },
+        {
+          "img": "/scrolly/grey-gradient.png",
+          "alt": "a grey gradient background",
+          "pos": "center",
+          "text": "The businesses and buildings lining Telegraph Avenue have fluctuated as well. This project dives into some of the aspects that make this street unique such as street vendors and the city's infamous history and its decline in bookstores, and highlights some of the street's longest standing residents. Due to space and time constraints, this project will focus on the top five blocks of Telegraph Avenue, a favorite haunt of Berkeley students and the location of so many historic moments."
+        }
+      ]
     }
   },
   {

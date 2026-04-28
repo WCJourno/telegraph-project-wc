@@ -39,15 +39,11 @@ html, body {
 }
 
 main {
-  background-color: #F2CF8D;
+  background-color: rgb(116, 119, 122);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;   
   min-height: 100%;
-}
-
-div {
-
 }
 
 .hero-section {
@@ -56,22 +52,27 @@ div {
   height: 100vh;
   padding: 20vh 10vh 10vh;
   background-repeat: no-repeat;
-  h1 {
-    color: white;
+}
+
+.light-hero-box {
+  background-color: rgba(157, 157, 159, 0.8);
+  padding: 2rem;
+    h1 {
+    color: rgb(0, 0, 0);
     font-size: 3rem;
   }
   h3 {
-    color: white;
+    color: rgb(70, 65, 65);
     font-size: 1.5rem;
   }
   p {
-    color: white;
+    color: rgb(70, 65, 65);
     font-size: 1.2rem;
   }
 }
 
 .story-background-photo {
-  background-image: url("/images/Telegraph-Road-Desktop-100px.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/Telegraph-Road-Desktop-100px.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -79,9 +80,8 @@ div {
 
 @media (max-width: 768px) {
   .story-background-photo {
-    background-image: url("/images/Telegraph-Road-Mobile-62px.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/Telegraph-Road-Mobile-62px.png");
   }
-
 }
 
 .two-column-layout {
@@ -98,9 +98,43 @@ div {
 }
 
 .box {
-  border-radius: 5px;
   padding: 1rem;
   margin: 1rem;
+}
+
+.small-text-box { 
+  text-align: left;
+  background-color: #ffffff;
+  margin: 0 10vh 40vh 10vh;
+  padding: 0.5rem 1rem;
+}
+
+.carousel-box {
+  background-color: #808388f1;
+  min-height: 70vh;
+  overflow: hidden;
+
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+  }
+  p {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+  }
+}
+
+.carousel-box .carousel-inner,
+.carousel-box .carousel-item {
+  max-height: 70vh;
+}
+
+.carousel-box img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  display: block;
 }
 
 .centered-text-box {
