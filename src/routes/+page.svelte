@@ -133,7 +133,7 @@
                     <h3>Slide 01</h3>
                     <p>This is the first slide.</p>
                 </div>
-            <img src="/images/jaffar-01-sm-static.png" alt="Jaffar" class="d-block w-100">
+            <img src="{base}/images/jaffar-01-sm-static.png" alt="Jaffar" class="d-block w-100">
             </div>
 
             <div class="carousel-item">
@@ -141,7 +141,7 @@
                     <h3>Slide 02</h3>
                     <p>This is the second slide.</p>
                 </div>
-            <img src="/images/young-02-sm-static.png" alt="Young" class="d-block w-100">
+            <img src="{base}/images/young-02-sm-static.png" alt="Young" class="d-block w-100">
             </div>
 
             <div class="carousel-item">
@@ -150,7 +150,7 @@
                     <h3>Slide 03</h3>
                     <p>This is the third slide.</p>
                 </div>
-            <img src="/images/jaffar-01-sm-static.png" alt="Jaffar" class="d-block w-100">
+            <img src="{base}/images/jaffar-01-sm-static.png" alt="Jaffar" class="d-block w-100">
             </div>
         </div>
 
