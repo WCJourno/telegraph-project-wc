@@ -30,8 +30,6 @@ $small-font-size: .875em;
 Any project-wide styles should go AFTER the Bootsrap import 
 ************/
 
-
-
 html, body {
   height: 100%;
   -webkit-font-smoothing: auto;
@@ -39,7 +37,7 @@ html, body {
 }
 
 main {
-  background-color: rgb(116, 119, 122);
+  background-color: rgb(171, 176, 182);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;   
@@ -47,36 +45,57 @@ main {
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/WelcomeTelegraphMural.jpg");
-  background-color: #d638e4;
-  height: 100vh;
-  padding: 20vh 10vh 10vh;
-  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .light-hero-box {
-  background-color: rgba(157, 157, 159, 0.8);
+  position: relative;
+  z-index: 2;
+  background-color: rgba(200, 199, 199, 0.9);
   padding: 2rem;
-    h1 {
-    color: rgb(0, 0, 0);
-    font-size: 3rem;
-  }
-  h3 {
-    color: rgb(70, 65, 65);
-    font-size: 1.5rem;
-  }
-  p {
-    color: rgb(70, 65, 65);
-    font-size: 1.2rem;
-  }
+  margin: 0 35vh 35vh 35vh;
+  border-radius: 30px;
 }
 
+.light-hero-box h1 {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+}
+
+.light-hero-box h3 {
+  color: rgb(70, 65, 65);
+  font-size: 1.5rem;
+}
+
+.light-hero-box p {
+  color: rgb(70, 65, 65);
+  font-size: 1.2rem;
+}
+
+
 .story-background-photo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/Telegraph-Road-Desktop-100px.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/Telegraph-Road-Mobile-62px.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
 }
+
 
 @media (max-width: 768px) {
   .story-background-photo {
@@ -85,13 +104,13 @@ main {
 
   .hero-section {
     height: auto;
-    min-height: 70vh;
+    min-height: 100vh;
     padding: 10vh 1.5rem 4rem;
   }
 
   .light-hero-box {
     padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 0 10vh 40vh 10vh;
       h1 {
         font-size: 2.5rem;
       }
@@ -176,7 +195,7 @@ main {
   }
 }
 
-
+/* DISABLING BOX COLORS FOR NOW, MAY RE-ENABLE LATER
 .color-1 {
   background: #ead8dfdc;
 }
@@ -184,6 +203,8 @@ main {
 .color-2 {
   background: #bedbdfdc;
 }
+*/
+
 
 /* Break out of the centered container to full viewport width */
 .full-bleed {

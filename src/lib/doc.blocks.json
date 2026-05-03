@@ -1,9 +1,5 @@
 [
   {
-    "type": "html",
-    "html": "<p>"
-  },
-  {
     "type": "shortcode",
     "name": "Scrolly",
     "attrs": {
@@ -15,7 +11,7 @@
           "text": "The noise of the present often obscures the rich history of the place."
         },
         {
-          "img": "/scrolly/Telegraph-map.png",
+          "img": "/scrolly/SatherGate-wMap-01.png",
           "alt": "A screenshot of a map of Telegraph Avenue",
           "pos": "start",
           "text": "Telegraph Avenue has been around for centuries. A north-south artery of the East Bay, it stretches TK miles, all the way to Oakland. At the north end, it once came all the way to Sather Gate&ndash;though it retreated to the corner of Bancroft Way in TK YEAR."
@@ -46,9 +42,5 @@
         }
       ]
     }
-  },
-  {
-    "type": "html",
-    "html": "</p>"
   }
 ]

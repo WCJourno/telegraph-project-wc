@@ -11,7 +11,10 @@
 <main>
 
 <!-- Section 1A: Hero page -->
-<section class="hero-section">
+<section class="hero-section red-tint-background">
+    <video autoplay muted loop id="myVideo">
+        <source src="{base}/videos/Tele-Bancroft-Video.mp4" type="video/mp4">
+    </video>
     <div class="light-hero-box">
         <h1 class="text-center">THE AVE</h1>
         <h3 class="text-center">An interactive journey into the history of Berkeley’s student thoroughfare.</h3>
@@ -71,13 +74,14 @@
 <!-- Section 2: Street Vendors-->
 <section class="red-tint-background">
     <div class="two-column-layout">
+
         <div class="box">
-            <img src="{base}/images/jaffar-01-sm-static.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
+            <h1> Street Vendors</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
         </div>
 
         <div class="box">
-            <h1> Heading</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
+            <img src="{base}/images/jaffar-01-sm-static.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
         </div>
     </div>
 </section>
@@ -88,11 +92,12 @@
 
     <div class="two-column-layout">
         <div class="color-1 box">
-            <h1> This is some test text. How does this column look to you?</h1>
+            <h1>Store Changes</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
         </div>
 
-        <div class="color-2 box">
-            <h1> This is some test text. How does this column look to you?</h1>
+        <div class=" color-2 box">
+            <img src="{base}/images/Telegraph-Haste-1800px.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
         </div>
     </div>
 
@@ -107,15 +112,18 @@
         </div>
 
         <div class="color-2 box">
-            <h1> This is some test text. How does this second column look to you?</h1>
+            <h1> Bookstores</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
         </div>
     </div>
 
 </section>
 
     <div class="carousel-box">
+        <!-- DISABLING CAROUSEL HEADER TEXT FOR NOW
         <h1 class="text-center">Bookstores</h1>
         <h3 class=text-center>Flip through the history of bookstores in the Southside</h3>
+        -->
 
         <div id="myCarousel" class="carousel slide">
 
@@ -172,12 +180,17 @@
 
     <div class="two-column-layout">
         <div class="color-1 box">
-            <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
+            <h1 class="text-center">Young's Backpacking</h1>
+            <p> A longtime fixture of the Southside, Young's store has sold supplies to outdoor enthusiansts for four decades.</p>      
         </div>
 
         <div class="color-2 box">
-            <img src="{base}/images/2411telegraphstatic.png" alt="A building." style="width: 100%; height: auto;">
+            <img src="{base}/images/YoungsBackpacking-01-1000px.png" alt="A building." style="width: 100%; height: auto;">
         </div>
+    </div>
+
+    <div class="centered-text-box box">
+        <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: auto; height: 100%; margin:auto; display:block;">
     </div>
 
 </section>
@@ -185,51 +198,22 @@
 <!-- Section 6: Lunaparra/Future -->
 <section class="dark-blue-tint-background">
     <div class="centered-text-box box">
-        <h1 class="text-center">Another Section</h1>
-        <h3 class=text-center>I'm trying a centered text box here.</h3>
+        <h1 class="text-center">Councilmember Lunaparra ponders the future</h1>
+        <h3 class=text-center>Representing the Southside on the city council for the past two years.</h3>
     </div>
 
         <div class="two-column-layout">
             <div class="color-1 box">
-                <h1> This is some test text. How does this second column look to you?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
             </div>
-
 
             <div class="color-2 box">
-                <h1> This is some test text. How does this second column look to you?</h1>
+                <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
             </div>
         </div>
 
-    <div class="two-column-layout">
-        <div class="color-1 box">
-            <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
-        </div>
-
-        <div class="color-2 box">
-            <h1> This is some test text. How does this column look to you?</h1>
-        </div>
-    </div>
 </section>
 
 </div>
 
 </main>
-
-<style lang="scss">
-
-  .dark-blue-tint-background {
-    background-color: rgba(0, 0, 139, 0.2); /* Dark blue tint */
-    padding: 50px 20px; /* Add some padding for spacing */
-  }
-
-  .red-tint-background {
-    background-color: rgba(255, 0, 0, 0.2); /* Red tint */
-    padding: 50px 20px; /* Add some padding for spacing */
-  }
-
-  .yellow-tint-background {
-    background-color: rgba(250, 239, 140, 0.2); /* Yellow tint */
-    padding: 50px 20px; /* Add some padding for spacing */
-  }
-
-</style>
