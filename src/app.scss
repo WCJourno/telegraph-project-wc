@@ -88,14 +88,12 @@ main {
   font-size: 1.2rem;
 }
 
-
 .story-background-photo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/Telegraph-Road-Mobile-62px.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
 }
-
 
 @media (max-width: 768px) {
   .story-background-photo {
@@ -193,6 +191,16 @@ main {
     color: white;
     font-size: 1.2rem;
   }
+}
+
+.centered-telegraph-box {
+  height: 70vh;
+  padding: 2rem; 
+  margin: 2rem auto;
+}
+
+.bottom-margin {
+  margin-bottom: 40vh;
 }
 
 /* DISABLING BOX COLORS FOR NOW, MAY RE-ENABLE LATER

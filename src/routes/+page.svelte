@@ -71,8 +71,15 @@
 
 <div class="story-background-photo">
 
+<!--- Section 1b: Welcome to Telegraph Avenue-->
+<section class="bottom-margin"> 
+    <div class="centered-telegraph-box box">
+        <img src="{base}/images/TelegraphAveSign.png" alt="Sign." style="width: auto; height: 100%; margin:auto; display:block;">
+    </div>
+</section>
+
 <!-- Section 2: Street Vendors-->
-<section class="red-tint-background">
+<section class="red-tint-background bottom-margin">
     <div class="two-column-layout">
 
         <div class="box">
@@ -88,7 +95,7 @@
 
 <!-- Section 3: Store Changes/Haste Intersection -->
 
-<section class="yellow-tint-background">
+<section class="yellow-tint-background bottom-margin">
 
     <div class="two-column-layout">
         <div class="color-1 box">
@@ -97,7 +104,8 @@
         </div>
 
         <div class=" color-2 box">
-            <img src="{base}/images/Telegraph-Haste-1800px.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
+            <img src="{base}/images/CopyCentral-1000px.png" alt="2411 Telegraph Avenue." style="width: 100%; height: auto;">
+            <img src="{base}/images/Telegraph-Haste-1800px.png" alt="2503 Haste Street & Amoeba Music." style="width: 100%; height: auto;">
         </div>
     </div>
 
@@ -108,7 +116,7 @@
 
     <div class="two-column-layout">
         <div class="color-1 box">
-            <img src="{base}/images/Moes-illustration.png" alt="Moe's Bookstore." style="width: auto; height: 600px;">
+            <img src="{base}/images/MoesBooks-1000px.png" alt="Moe's Bookstore." style="width: auto; height: 600px;">
         </div>
 
         <div class="color-2 box">
@@ -119,7 +127,7 @@
 
 </section>
 
-    <div class="carousel-box">
+    <div class="carousel-box bottom-margin">
         <!-- DISABLING CAROUSEL HEADER TEXT FOR NOW
         <h1 class="text-center">Bookstores</h1>
         <h3 class=text-center>Flip through the history of bookstores in the Southside</h3>
@@ -176,7 +184,7 @@
     </div>
 
 <!-- Section 5: Young's-->
-<section class="yellow-tint-background">
+<section class="yellow-tint-background bottom-margin">
 
     <div class="two-column-layout">
         <div class="color-1 box">
@@ -196,7 +204,7 @@
 </section>
 
 <!-- Section 6: Lunaparra/Future -->
-<section class="dark-blue-tint-background">
+<section class="dark-blue-tint-background bottom-margin">
     <div class="centered-text-box box">
         <h1 class="text-center">Councilmember Lunaparra ponders the future</h1>
         <h3 class=text-center>Representing the Southside on the city council for the past two years.</h3>
