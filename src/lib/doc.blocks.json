@@ -5,40 +5,46 @@
     "attrs": {
       "steps": [
         {
-          "img": "/scrolly/grey-gradient.png",
+          "img": "/scrolly/white_black_gradient.png",
           "alt": "a grey gradient background",
           "pos": "center",
-          "text": "The noise of the present often obscures the rich history of the place."
+          "text": "Standing at the corner of Telegraph Avenue and Bancroft Way, it's easy to get caught up in the moment."
         },
         {
-          "img": "/scrolly/SatherGate-wMap-01.png",
+          "img": "/scrolly/white_black_gradient.png",
+          "alt": "a grey gradient background",
+          "pos": "center",
+          "text": "Throngs of busy undergrads walk to and fro while student clubs and political candidates vie for attention of passersby, all obscuring the rich history of the place."
+        },
+        {
+          "img": "/scrolly/Sather_map_1350px.png",
           "alt": "A screenshot of a map of Telegraph Avenue",
           "pos": "start",
-          "text": "Telegraph Avenue has been around for centuries. A north-south artery of the East Bay, it stretches TK miles, all the way to Oakland. At the north end, it once came all the way to Sather Gate&ndash;though it retreated to the corner of Bancroft Way in TK YEAR."
+          "text": "Telegraph Avenue originated in the mid-1800s, gaining its name because it ran parallel to an early telegraph line. Today, it serves as a north-south artery of the East Bay, stretching from the southern edge of UC Berkeley to downtown Oakland. At the north end, Telegraph Avenue once stretched to Sather Gate&ndash;but it retreated to the corner of Bancroft Way in the 1950s when UC Berkeley expanded its campus."
         },
         {
-          "img": "/scrolly/Telegraph_Downtown_Oakland.png",
+          "img": "/scrolly/19th_century_telegraph_1350px.png",
           "alt": "A historic photo shows horse drawn carriages in Oakland",
           "pos": "end",
-          "text": "In the early 19th century, horse carriages rambled up and down the avenue, carrying students, professors and everyone else where they needed to go."
+          "text": "In the 19th century, horse carriages rambled up and down the avenue, carrying students and everyone else where they needed to go."
         },
         {
-          "img": "/scrolly/Moes-historic-photo.png",
+          "img": "/scrolly/20th_century_telegraph_1350px.png",
           "alt": "Three men sit on a curb across from Moe's Bookstore",
           "pos": "start",
-          "text": "In the mid-20th century pictures of Telegraph Avenue were seen around the world, as the street acted as one of the iconic backdrops for a social movement&hellip;"
+          "text": "In the 1960s and '70s, pictures of Telegraph Avenue were seen around the world as the street served as one of the iconic backdrops for a social movement&hellip;"
         },
         {
           "img": "/scrolly/telegraph-car.png",
           "alt": "A car outfitted with makeshift crowd control devices",
           "pos": "end",
-          "text": "&hellip; and disastrous clashes between protesters and local, state and federal authorities."
+          "text": "&hellip; and clashes between protesters and police."
         },
         {
-          "img": "/scrolly/grey-gradient.png",
+          "img": "/scrolly/black_grey_gradient.png",
           "alt": "a grey gradient background",
           "pos": "center",
-          "text": "The businesses and buildings lining Telegraph Avenue have fluctuated as well. This project dives into some of the aspects that make this street unique such as street vendors and the city's infamous history and its decline in bookstores, and highlights some of the street's longest standing residents. Due to space and time constraints, this project will focus on the top five blocks of Telegraph Avenue, a favorite haunt of Berkeley students and the location of so many historic moments."
+          "text": "With such a long history, change on Telegraph Avenue was inevitable. This project offers a glimpse of those transformations through the perspective of small business owners who have worked on the street for decades. Studying these businesses, all of which are located in the northern section of Telegraph Avenue, offers readers an insight into the social and technological transformations of the past century."
         }
       ]
     }

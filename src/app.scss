@@ -37,7 +37,7 @@ html, body {
 }
 
 main {
-  background-color: rgb(171, 176, 182);
+  background-color: #777;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;   
@@ -67,29 +67,22 @@ main {
 .light-hero-box {
   position: relative;
   z-index: 2;
-  background-color: rgba(200, 199, 199, 0.9);
-  padding: 2rem;
-  margin: 0 35vh 35vh 35vh;
+  background-color: rgba(221, 221, 221, 0.9);
+  padding: 1rem;
+  margin: 0 30vh 35vh 30vh;
+  border-color: #d05c2d;
+  border-style: double;
+  border-width: 15px;
   border-radius: 30px;
 }
 
-.light-hero-box h1 {
-  color: rgb(0, 0, 0);
-  font-size: 3rem;
-}
-
-.light-hero-box h3 {
-  color: rgb(70, 65, 65);
-  font-size: 1.5rem;
-}
-
 .light-hero-box p {
-  color: rgb(70, 65, 65);
-  font-size: 1.2rem;
+  color: #391f0d;
+  font-size: 1rem;
 }
 
 .story-background-photo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/TelegraphRoad-May3-1200px.png");
+  background-image: url("/images/TelegraphRoad-May3-1200px.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -125,6 +118,11 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 85px;
+
+  .h1 {
+    font-size: 2.5rem;
+    color: #D96C75;
+  }
 }
 
 @media (max-width: 768px) {
@@ -137,6 +135,14 @@ main {
 .box {
   padding: 1rem;
   margin: 1rem;
+  h1 {
+    font-size: 2.5rem;
+    color: #b6b6b6;
+  }
+  p {
+    font-size: 1.2rem;
+    color: #bababa;
+  }
 }
 
 .small-text-box { 
@@ -152,11 +158,11 @@ main {
   overflow: hidden;
 
   h3 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 105, 105);
     font-size: 1.5rem;
   }
   p {
-    color: rgb(0, 0, 0);
+    color: rgb(155, 105, 105);
     font-size: 1.2rem;
   }
 }
@@ -212,6 +218,10 @@ main {
   background: #bedbdfdc;
 }
 */
+
+.dark-blue-tint-background {
+  background-color: #aac2e0f5;
+}
 
 
 /* Break out of the centered container to full viewport width */

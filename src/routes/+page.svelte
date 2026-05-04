@@ -16,10 +16,8 @@
         <source src="{base}/videos/Tele-Bancroft-Video.mp4" type="video/mp4">
     </video>
     <div class="light-hero-box">
-        <h1 class="text-center">THE AVE</h1>
-        <h3 class="text-center">An interactive journey into the history of Berkeley’s student thoroughfare.</h3>
-        <p> Standing on the corner of Telegraph Avenue and Bancroft Way, it’s easy to get caught up in the moment. Throngs of busy undergrads walk to and fro while student clubs and political candidates vie for the attention of passersby…</p>
-    </div>
+        <img src="{base}/images/WelcomeIllustration.png" alt="Welcome to Telegraph Avenue" style="width: 60vh; height: auto; margin:auto; display:block;">
+        <p class="text-center"> An interactive tour by Will Carruthers, Hamza Adel Fahmy and Chloe Swedberg</p>
 </section>
 
 <!-- Section 1B: Text lede/historic scene setting/nut graf-->
@@ -84,11 +82,12 @@
 
         <div class="box">
             <h1> Street Vendors</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
+            <p>Zaffar Mahmoud has been laying out his jewelry to sell on Telegraph Avenue since 1980, back when the street still felt like an open-air gallery. In those days, the sidewalks were filled with other vendors sharing handmade wares. That world hasn’t disappeared, but it’s gotten quieter. Over time, Zaffar says selling here has become less about craft and more about keeping up— faster products and shifts in taste have made fewer vendors willing or able to stay. </p>
+            <p>Many have packed up, moved on, or changed what they make just to get by. Zaffar remains a constant on a street that rarely is, one where the value wasn’t just in what you bought, but in who you met along the way. </p>
         </div>
 
         <div class="box">
-            <img src="{base}/images/jaffar-01-sm-static.png" alt="A longtime street vendor." style="width: 100%; height: auto;">
+            <iframe width="500px" height="315px" src="https://www.youtube.com/embed/v0JEVTtJHzk?si=FwnqQAovZxTm4-ZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
 </section>
@@ -100,13 +99,22 @@
     <div class="two-column-layout">
         <div class="color-1 box">
             <h1>Store Changes</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
+            <p>Though some buildings on Telegraph Avenue have been largely unchanged, serving a series of businesses over the decades, many other buildings have been torn down and replaced. Two buildings at the corner of Haste Street and Telegraph Avenue offer an example of this dichotomy. </p>
         </div>
 
         <div class=" color-2 box">
             <img src="{base}/images/CopyCentral-1000px.png" alt="2411 Telegraph Avenue." style="width: 100%; height: auto;">
+            <p>At 2411 Telegraph Ave., a colorful marquee today advertises the offerings of the Copy Central inside. The same building has housed numerous businesses in the past, including Armadillo Pizza in the 1980s and, in the early 2000s, a branch of Rasputin Records specializing in videos. Decades earlier, as the building’s exterior suggests, 2411 Telegraph Ave. was the location of the Sunset Theater and then the D.K. Theater. Both went out of business, part of a greater trend of local theaters disappearing across Berkeley. </p>
+        </div>
+    </div>
+
+    <div class="two-column-layout">
+        <div class="color-1 box">
+            <p> Right next door to 2411 Telegraph Ave. is 2503 Haste Street, a site of much civic consternation. The land was once covered by the Berkeley Inn, a 75-room hotel which was demolished in 1990 after suffering a series of fires. The property was an empty lot and eyesore for decades before it was finally replaced by a hulking student housing complex completed in 2020. The new building, dubbed the Enclave, was the subject of much discussion. Bland critics called it “funky” and “the ugliest building in Berkeley” while more creative ones painted an image with words. San Francisco Chronicle columnist John King wrote that the Enclave looks “as if Harry Potter and Fred Flintstone decided to build a McMansion. On acid."</p>
             <img src="{base}/images/Telegraph-Haste-1800px.png" alt="2503 Haste Street & Amoeba Music." style="width: 100%; height: auto;">
         </div>
+
+         <div class="color-2 box"></div>
     </div>
 
 </section>
@@ -121,7 +129,8 @@
 
         <div class="color-2 box">
             <h1> Bookstores</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
+            <p>Throughout the 20th century, Berkeley was home to dozens of bookstores. In 1986, a guidebook listed 45 independent bookstores throughout the city, with 15 clustered within a five-block section of the Southside. Bookstores appear in the background of many historic photos of the street–and, at other times, made news themselves. </p>
+            <p> Click the arrow on the right to explore some of the historical highlights. </p>
         </div>
     </div>
 
@@ -189,7 +198,8 @@
     <div class="two-column-layout">
         <div class="color-1 box">
             <h1 class="text-center">Young's Backpacking</h1>
-            <p> A longtime fixture of the Southside, Young's store has sold supplies to outdoor enthusiansts for four decades.</p>      
+            <p> Young’s Backpacks is one of Telegraph’s quieter anchors. Its story starts in 1983, when Min Young arrived in the United States as a young man who had served in the Korean army and developed a reputation as an accomplished mountaineer. Young built his small camping store piece by piece until it became something steady and familiar. </p>
+            <p> Four decades later, Young is still on Telegraph Avenue, but the street around him has shifted. The independent, family-run shops that once defined the street are fading due to increasing rents and the rise of online retail. He points just next door to places like Hats of Berkeley — a longtime business which shuttered their doors earlier this year — as an example of what’s being lost. Young’s store remains, but like Zaffar on the sidewalk, it stands on a thinning landscape. </p>
         </div>
 
         <div class="color-2 box">
@@ -198,27 +208,27 @@
     </div>
 
     <div class="centered-text-box box">
-        <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: auto; height: 100%; margin:auto; display:block;">
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/Q1xNUD7Zuvo?si=ArRCtVO0HRyKRQWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin:auto; display:block;"></iframe>
     </div>
 
 </section>
 
 <!-- Section 6: Lunaparra/Future -->
 <section class="dark-blue-tint-background bottom-margin">
-    <div class="centered-text-box box">
+     <div class="box">
         <h1 class="text-center">Councilmember Lunaparra ponders the future</h1>
-        <h3 class=text-center>Representing the Southside on the city council for the past two years.</h3>
     </div>
-
-        <div class="two-column-layout">
-            <div class="color-1 box">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt fringilla molestie. In mattis neque et enim eleifend malesuada. In non ex quam. Maecenas lorem metus, pharetra a odio in, molestie fermentum lectus. Proin non ultrices mauris, quis egestas est. Praesent purus felis, vehicula eget lacus ut, maximus ultricies est. Donec sit amet nibh ut leo volutpat vehicula ut id lectus. Phasellus suscipit risus ante, a volutpat massa gravida in. Vivamus aliquam, ex eget sollicitudin dictum, eros sem dapibus dui, id volutpat dolor sapien vel justo. Praesent auctor sem vitae nulla iaculis, non congue neque dictum. Nulla eleifend ut eros ut euismod. Praesent nec blandit lectus. Suspendisse a lectus quam. </p>
-            </div>
-
-            <div class="color-2 box">
-                <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
-            </div>
+ 
+    <div class="two-column-layout">
+        <div class="color-1 box">
+             <p> Berkeley City Councilmember Cecilia Lunaparra looks at Telegraph Avenue for both what it is today, and what it could  become. While representing Berkeley’s Southside on the city council for the past two years, she has seen the same pattern playing out block by block: longtime mom-and-pop shops, especially retail stores, struggling to hold on, while a new wave of businesses—boba shops, quick-turn storefronts—move in to meet changing demand. </p>
+            <p> For Lunaparra, the future of Telegraph isn’t just about what fills the storefronts, but about reimagining the street itself. She talks about the possibility of a car-free corridor– a Telegraph that shifts its focus back to pedestrians, vendors and students. It’s an idea that echoes the avenue’s past while pushing it forward: making it into an area less defined by lines of double-parked food delivery drivers and business closures, and more by community, where the rhythm of the street might once again be shaped by those who spend time on it. </p>
         </div>
+
+        <div class="color-2 box">
+            <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
+        </div>
+    </div>
 
 </section>
 
