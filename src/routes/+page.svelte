@@ -122,7 +122,7 @@
 <!-- Section 4: Bookstores -->
 <section class="dark-blue-tint-background">
 
-    <div class="two-column-layout">
+    <div class="two-column-layout dark-text">
         <div class="color-1 box">
             <img src="{base}/images/MoesBooks-1000px.png" alt="Moe's Bookstore." style="width: auto; height: 600px;">
         </div>
@@ -214,7 +214,7 @@
 </section>
 
 <!-- Section 6: Lunaparra/Future -->
-<section class="dark-blue-tint-background bottom-margin">
+<section class="dark-blue-tint-background bottom-margin dark-text">
      <div class="box">
         <h1 class="text-center">Councilmember Lunaparra ponders the future</h1>
     </div>
