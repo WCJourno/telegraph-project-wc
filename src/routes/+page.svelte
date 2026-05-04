@@ -72,7 +72,7 @@
 <!--- Section 1b: Welcome to Telegraph Avenue-->
 <section class="bottom-margin"> 
     <div class="centered-telegraph-box box">
-        <img src="{base}/images/TelegraphAveSign.png" alt="Sign." style="width: auto; height: 100%; margin:auto; display:block;">
+        <img src="{base}/images/TelegraphAveSignPlain.png" alt="Sign." style="width: auto; height: 100%; margin:auto; display:block;">
     </div>
 </section>
 
@@ -98,29 +98,38 @@
 
     <div class="two-column-layout">
         <div class="color-1 box">
-            <h1>Store Changes</h1>
-            <p>Though some buildings on Telegraph Avenue have been largely unchanged, serving a series of businesses over the decades, many other buildings have been torn down and replaced. Two buildings at the corner of Haste Street and Telegraph Avenue offer an example of this dichotomy. </p>
+            <h1 class="text-center">Store Changes</h1>
+            <p>Though some buildings on Telegraph Avenue have been largely unchanged, serving a series of businesses over the decades, many other buildings have been torn down and replaced. Two buildings at the corner of Haste Street and Telegraph Avenue offer an example of this dichotomy.</p>
         </div>
+        <div class=" color-2 box"></div>
+    </div>
+
+    <div class="two-column-layout">
+
+        <div class="color-1 box">
+             <img src="{base}/images/CopyCentral-1000px.png" alt="2411 Telegraph Avenue." style="width: 100%; height: auto;">
+            </div>
 
         <div class=" color-2 box">
-            <img src="{base}/images/CopyCentral-1000px.png" alt="2411 Telegraph Avenue." style="width: 100%; height: auto;">
-            <p>At 2411 Telegraph Ave., a colorful marquee today advertises the offerings of the Copy Central inside. The same building has housed numerous businesses in the past, including Armadillo Pizza in the 1980s and, in the early 2000s, a branch of Rasputin Records specializing in videos. Decades earlier, as the building’s exterior suggests, 2411 Telegraph Ave. was the location of the Sunset Theater and then the D.K. Theater. Both went out of business, part of a greater trend of local theaters disappearing across Berkeley. </p>
+        <p>At 2411 Telegraph Ave., a colorful marquee today advertises the offerings of the Copy Central inside. The same building has housed numerous businesses in the past, including Armadillo Pizza in the 1980s and, in the early 2000s, a branch of Rasputin Records specializing in videos. Decades earlier, as the building’s exterior suggests, 2411 Telegraph Ave. was the location of the Sunset Theater and then the D.K. Theater. Both went out of business, part of a greater trend of local theaters disappearing across Berkeley. </p>
         </div>
+        
     </div>
 
     <div class="two-column-layout">
         <div class="color-1 box">
             <p> Right next door to 2411 Telegraph Ave. is 2503 Haste Street, a site of much civic consternation. The land was once covered by the Berkeley Inn, a 75-room hotel which was demolished in 1990 after suffering a series of fires. The property was an empty lot and eyesore for decades before it was finally replaced by a hulking student housing complex completed in 2020. The new building, dubbed the Enclave, was the subject of much discussion. Bland critics called it “funky” and “the ugliest building in Berkeley” while more creative ones painted an image with words. San Francisco Chronicle columnist John King wrote that the Enclave looks “as if Harry Potter and Fred Flintstone decided to build a McMansion. On acid."</p>
-            <img src="{base}/images/Telegraph-Haste-1800px.png" alt="2503 Haste Street & Amoeba Music." style="width: 100%; height: auto;">
         </div>
 
-         <div class="color-2 box"></div>
+         <div class="color-2 box">
+             <img src="{base}/images/Telegraph-Haste-1800px.png" alt="2503 Haste Street & Amoeba Music." style="width: 100%; height: auto;">
+         </div>
     </div>
-
 </section>
 
+
 <!-- Section 4: Bookstores -->
-<section class="dark-blue-tint-background">
+<section class="dark-blue-tint-background bottom-margin">
 
     <div class="two-column-layout dark-text">
         <div class="color-1 box">
@@ -130,67 +139,10 @@
         <div class="color-2 box">
             <h1> Bookstores</h1>
             <p>Throughout the 20th century, Berkeley was home to dozens of bookstores. In 1986, a guidebook listed 45 independent bookstores throughout the city, with 15 clustered within a five-block section of the Southside. Bookstores appear in the background of many historic photos of the street–and, at other times, made news themselves. </p>
-            <p> Click the arrow on the right to explore some of the historical highlights. </p>
         </div>
     </div>
 
-</section>
-
-    <div class="carousel-box bottom-margin">
-        <!-- DISABLING CAROUSEL HEADER TEXT FOR NOW
-        <h1 class="text-center">Bookstores</h1>
-        <h3 class=text-center>Flip through the history of bookstores in the Southside</h3>
-        -->
-
-        <div id="myCarousel" class="carousel slide">
-
-        <!-- Indicators --> <!-- Carousel instructions: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
-        <ol class="carousel-indicators">
-            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="carousel-caption">
-                    <h3>Slide 01</h3>
-                    <p>This is the first slide.</p>
-                </div>
-            <img src="{base}/images/jaffar-01-sm-static.png" alt="Jaffar" class="d-block w-100">
-            </div>
-
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <h3>Slide 02</h3>
-                    <p>This is the second slide.</p>
-                </div>
-            <img src="{base}/images/young-02-sm-static.png" alt="Young" class="d-block w-100">
-            </div>
-
-            <div class="carousel-item">
-
-                <div class="carousel-caption">
-                    <h3>Slide 03</h3>
-                    <p>This is the third slide.</p>
-                </div>
-            <img src="{base}/images/jaffar-01-sm-static.png" alt="Jaffar" class="d-block w-100">
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-
-    </div>
+</section>  
 
 <!-- Section 5: Young's-->
 <section class="yellow-tint-background bottom-margin">
@@ -208,7 +160,9 @@
     </div>
 
     <div class="centered-text-box box">
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/Q1xNUD7Zuvo?si=ArRCtVO0HRyKRQWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="margin:auto; display:block;"></iframe>
+        <div class="responsive-video">
+            <iframe src="https://www.youtube.com/embed/Q1xNUD7Zuvo?si=ArRCtVO0HRyKRQWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
 
 </section>
@@ -226,7 +180,7 @@
         </div>
 
         <div class="color-2 box">
-            <img src="{base}/images/young-02-sm-static.png" alt="Young himself." style="width: 100%; height: auto;">
+            <img src="{base}/images/Lunaparra.png" alt="Councilmember Lunaparra." style="width: 100%; height: auto;">
         </div>
     </div>
 
