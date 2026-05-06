@@ -37,7 +37,7 @@ html, body {
 }
 
 main {
-  background-color: #777;
+  background-color: rgb(119, 119, 119);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;   
@@ -74,11 +74,10 @@ main {
   border-style: double;
   border-width: 15px;
   border-radius: 30px;
-}
-
-.light-hero-box p {
-  color: #391f0d;
-  font-size: 1rem;
+    p {
+    color: #391f0d;
+    font-size: 1rem;
+  }
 }
 
 .story-background-photo {
@@ -87,11 +86,6 @@ main {
   background-position: center;
   background-repeat: no-repeat; 
 }
-
-@media (max-width: 768px) {
-  .story-background-photo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/images/TelegraphRoad-May3-1200px.png");
-  }
 
   .hero-section {
     height: auto;
@@ -112,17 +106,11 @@ main {
         font-size: 1rem;
       }
     }
-}
 
 .two-column-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 85px;
-
-  .h1 {
-    font-size: 2.5rem;
-    color: #D96C75;
-  }
 }
 
 @media (max-width: 768px) {
@@ -156,41 +144,6 @@ main {
     font-size: 1.2rem;
     color: #4d4d4d;
   }
-}
-
-.small-text-box { 
-  text-align: left;
-  background-color: #ffffff;
-  margin: 0 10vh 40vh 10vh;
-  padding: 0.5rem 1rem;
-}
-
-.carousel-box {
-  background-color: #808388f1;
-  min-height: 70vh;
-  overflow: hidden;
-
-  h3 {
-    color: rgb(255, 105, 105);
-    font-size: 1.5rem;
-  }
-  p {
-    color: rgb(155, 105, 105);
-    font-size: 1.2rem;
-  }
-}
-
-.carousel-box .carousel-inner,
-.carousel-box .carousel-item {
-  max-height: 70vh;
-}
-
-.carousel-box img {
-  width: 100%;
-  height: auto;
-  max-height: 70vh;
-  object-fit: cover;
-  display: block;
 }
 
 .centered-text-box {
@@ -233,24 +186,33 @@ main {
   margin: 2rem auto;
 }
 
+.centered-telegraph-box .telegraph-sign {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  max-width: 80%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .centered-telegraph-box .telegraph-sign {
+    max-width: 90vw;
+  }
+}
+
 .bottom-margin {
-  margin-bottom: 40vh;
+  margin-bottom: 25vh;
 }
-
-/* DISABLING BOX COLORS FOR NOW, MAY RE-ENABLE LATER
-.color-1 {
-  background: #ead8dfdc;
-}
-
-.color-2 {
-  background: #bedbdfdc;
-}
-*/
 
 .dark-blue-tint-background {
   background-color: #aac2e0f5;
 }
 
+@media (max-width: 768px) {
+  .background-tint-mobile {
+    background-color: rgba(119, 119, 119, 0.8);
+  }
+}
 
 /* Break out of the centered container to full viewport width */
 .full-bleed {
